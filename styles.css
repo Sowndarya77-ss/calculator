@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    color: #333;
+    min-height: 100vh;
+}
+header {
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+header h1{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+main{
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.calculate , .result{
+    background-color: white;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+h2 {
+    color: green;
+    margin-bottom: 20px;
+}
+.loan{
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+input,select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+    border-color: green;
+    box-shadow: 0 0 0 3px rgba(0,128,0,0.1);
+}
+.result-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.total {
+    background: #f0fff0;
+    border-left: 4px solid green;
+    padding: 18px;
+    border-radius: 7px;
+}
+.total span {
+    display: block;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.total strong {
+    color: green;
+    font-size: 20px;
+}
+.btn {
+    display: flex;
+    gap: 10px;
+}
+
+.submit,
+.r-submit {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit {
+    background: blue;
+    color: white;
+}
+
+.submit:hover {
+    background: darkblue;
+}
+
+.r-submit {
+    background: red;
+    color: white;
+}
+
+.r-submit:hover {
+    background: darkred;
+}
